@@ -1,0 +1,60 @@
+/* === Base Options === */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+a, p, h2, input {
+  margin-bottom: 1.071rem
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* === Typography === */
+
+body {
+  color: #211138;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.social-media-text, h2, .sign-up_input-field {
+  letter-spacing: 0px;
+}
+
+.sign-up_password-recovery, .sign-up_sign-up-button, .sign-up_login-button, .copyright_footer {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.social-media-text, .sign-up_sign-up-button, {
+  color: #ffffff;
+}
+
+.sign-up_password-recovery, .sign-up_login-button, .copyright_brand-name, .copyright_student-name {
+  color: #6200ea;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.social-media-text {
+  font-size: 30px;
+}
+
+.sign-up_input-field::placeholder {
+  opacity: 0.25;
+}
+
+.copyright_footer {
+  color: #b2acba;
+}
