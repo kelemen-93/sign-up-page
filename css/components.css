@@ -2,22 +2,28 @@
 
 .left-column {
   background-color: #6200ea;
+  height: 86.3vh;
 }
 
 /* === Right Column === */
 
 .right-column {
-  background-color: gray;
-  background-image: url('assets/bailey-zindel-396398-unsplash.jpg');
+  background-image: url("../assets/bailey-zindel-396398-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  mix-blend-mode: luminosity;
+  height: 86.3vh;
+}
+
+@media screen and (max-width: 1150px) {
+  .left-column, .right-column {
+    width: 100%;
+  }
 }
 
 /* === Logo Container === */
 
 .logo-container {
-  height: 80px;
+  height: 5.7143rem;
   display: table;
 }
 
@@ -27,69 +33,81 @@
 }
 
 .logo {
-  margin-left: 30px;
+  margin-left: 2.143rem;
 }
 
 /* === Social Icon Container === */
 
 .social-icon-container {
-  height: 360px;
-  padding: 62px 0px 61px 60px;
+  padding: 4.4286rem 5.357rem 4.357rem 4.2857rem;
+  height: 25.714rem;
 }
 
 /* === Social Icons With Text Container === */
 
 .icon-with-text {
-  height: 37px;
+  height: 2.8571rem;
   width: 100%;
-  padding-bottom: 63px;
+  margin-bottom: 4.5rem;
+  display: table;
 }
 
 .icon-with-text:last-child {
-  padding-bottom: 0px;
+  margin-bottom: 0rem;
+}
+
+.social-media-text {
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 0rem;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* === Social Icons === */
 
 .social-media-link {
-  display:          inline-block;
-  width:            2.857rem;
-  height:           2.857rem;
-  padding:          0.714rem;
-  border-radius:    50%;
+  display: inline-block;
+  width: 2.857rem;
+  height: 2.857rem;
+  padding: 0.714rem;
+  border-radius: 50%;
   background-color: #ffffff;
-  text-align:       center;
-  margin-right: 20px;
+  text-align: center;
+  margin-right: 1.4286rem;
+  margin-bottom: 0rem;
+  font-size: 1.4286rem;
 }
 
 .social-media-icon {
-  color:          #6200ea;
-  font-size:      1.4285rem;
+  color: #6200ea;
 }
 
 /* === Sign Up Container === */
 
-.sign-up.container {
-  height: 540px;
-  padding: 60px 60px 65px 60px;
+.sign-up-container {
+  height: 58.25vh;
+  padding: 4.2857rem 4.2857rem 4.643rem 4.2857rem;
+  background-color: #ffffff;
+  border-radius: 1.071rem;
 }
 
 .sign-up-text {
-  padding-bottom: 30px;
+  padding-bottom: 2.143rem;
 }
 
 /* === Text Input Fields === */
 
 .sign-up_input-field {
-  display:          block; 
-  width:            100%;
-  padding:          1.1428rem 0 .9286rem 1.7143rem;
-  border:           0; 
-  border-bottom:    3px solid; 
-  border-color:     transparent;
-  margin-bottom:    1.071rem;
+  display: block; 
+  width: 100%;
+  padding: 1.1428rem 0 .9286rem 1.7143rem;
+  border: 0; 
+  border-bottom: 0.2143rem solid; 
+  border-color: transparent;
+  margin-bottom: 1.071rem;
   background-color: #f4f3f5;
-  outline:          none;
+  outline: none;
 }
 
 .contact-form__input-field:focus {
@@ -97,47 +115,47 @@
 }
 
 .password {
-  margin-bottom: 10px;
+  margin-bottom: 0.7143rem;
 }
 
 /* === Forget Your Password link === */
 
 .sign-up_password-recovery {
-  display:        block;
-  margin-bottom:  30px;
+  display: block;
+  margin-bottom: 2.143rem;
   text-align: right;
 }
 
 /* === Buttons === */
 
 .button {
-  display:        inline-block;
-  border:         2px solid;
-  border-radius:  1.786rem;
-  text-align:     center;
+  display: inline-block;
+  border: 0.143rem solid #6200ea;;
+  border-radius: 1.7143rem;
+  text-align: center;
+  height: 5.4vh;
+  width: 100%;
 }
 
-sign-up_sign-up-button {
-  width:          100%;
-  padding:        1.286rem 0;
-  margin-bottom:  15px;
+.signup-button {
   background-color: #6200ea;
-  border-color: #6200ea;
 }
 
-sign-up_login-button {
-  width:          100%;
-  padding:        1.286rem 0;
-  margin-bottom:  0px;
+.login-button {
   background-color: #ffffff;
   border-color: #6200ea;
 }
 
+.signup-button, .login-button {
+  padding: 1.2857rem 0rem;
+  margin-bottom: 1.071rem;
+}
+
 /* === Footer === */
 
-.footer {
+footer {
   background-color: #211138;
   text-align: center;
-  height: 100px;
-  padding: 43px 0px;
+  height: 7.143rem;
+  padding: 3.071rem 0rem;
 }

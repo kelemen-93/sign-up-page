@@ -9,7 +9,7 @@
 }
 
 .layout_item--67-percent {
-  width: 67%;
+  width: 67.5%;
 }
 
 .layout_item--50-percent {
@@ -21,7 +21,7 @@
   margin-right: auto;
 }
 
-.layout_item--floated-left {
+.layout_item--float-left {
   float: left;
 }
 
@@ -32,11 +32,13 @@
 /* === Intervals === */
 
 .gutter_horizontal--primary {
-  margin-bottom: 220px;
+  margin-top: 10rem;
+  margin-bottom: 15.714rem;
 }
 
 .gutter_horizontal--secondary {
-  margin-bottom: 130px;
+  margin-top: 9.286rem;
+  margin-bottom: 9.286rem;
 }
 
 /* === Helpers === */

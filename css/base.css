@@ -26,29 +26,32 @@ body {
 }
 
 .social-media-text, h2, .sign-up_input-field {
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
-.sign-up_password-recovery, .sign-up_sign-up-button, .sign-up_login-button, .copyright_footer {
-  font-size: 12px;
-  letter-spacing: 2.4px;
+.sign-up_password-recovery, .signup-button, .login-button, .copyright_footer {
+  font-size: 0.8571rem;
+  letter-spacing: 0.1714rem;
   text-transform: uppercase;
 }
 
-.social-media-text, .sign-up_sign-up-button, {
+.social-media-text, .signup-button {
   color: #ffffff;
 }
 
-.sign-up_password-recovery, .sign-up_login-button, .copyright_brand-name, .copyright_student-name {
+.sign-up_password-recovery, .login-button, .copyright_brand-name, .copyright_student-name {
   color: #6200ea;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.8571rem;
 }
 
 .social-media-text {
-  font-size: 30px;
+  white-space: nowrap;
+}
+.social-media-text {
+  font-size: 2.143rem;
 }
 
 .sign-up_input-field::placeholder {
